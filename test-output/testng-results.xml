@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="6" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45" started-at="2019-02-10T07:41:51Z" finished-at="2019-02-10T07:41:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45" started-at="2019-02-10T07:41:51Z" finished-at="2019-02-10T07:41:51Z">
+      <class name="day1.Day1Coding">
+        <test-method status="PASS" signature="printEvenNumbers()[pri:0, instance:day1.Day1Coding@6d8a00e3]" name="printEvenNumbers" duration-ms="14" started-at="2019-02-10T07:41:51Z" finished-at="2019-02-10T07:41:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printEvenNumbers -->
+      </class> <!-- day1.Day1Coding -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
