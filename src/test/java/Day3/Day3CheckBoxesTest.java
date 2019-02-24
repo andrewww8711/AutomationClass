@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
-public class CheckBoxesTest {
+public class Day3CheckBoxesTest {
 	WebDriver driver;
 	WebElement checkbox1;
 	WebElement checkbox2;

@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3402" started-at="2019-02-24T05:23:54Z" finished-at="2019-02-24T05:23:57Z">
+  <suite name="Default suite" duration-ms="6064" started-at="2019-02-24T05:27:10Z" finished-at="2019-02-24T05:27:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3402" started-at="2019-02-24T05:23:54Z" finished-at="2019-02-24T05:23:57Z">
-      <class name="Day3.CheckBoxesTest">
-        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:Day3.CheckBoxesTest@d8355a8]" name="setupBrowser" is-config="true" duration-ms="4439" started-at="2019-02-24T05:23:49Z" finished-at="2019-02-24T05:23:54Z">
+    <test name="Default test" duration-ms="6064" started-at="2019-02-24T05:27:10Z" finished-at="2019-02-24T05:27:16Z">
+      <class name="Day3.Day3CheckBoxesTest">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:Day3.Day3CheckBoxesTest@4c70fda8]" name="setupBrowser" is-config="true" duration-ms="3557" started-at="2019-02-24T05:27:06Z" finished-at="2019-02-24T05:27:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method status="PASS" signature="test001()[pri:0, instance:Day3.CheckBoxesTest@d8355a8]" name="test001" duration-ms="3379" started-at="2019-02-24T05:23:54Z" finished-at="2019-02-24T05:23:57Z">
+        <test-method status="PASS" signature="test001()[pri:0, instance:Day3.Day3CheckBoxesTest@4c70fda8]" name="test001" duration-ms="6036" started-at="2019-02-24T05:27:10Z" finished-at="2019-02-24T05:27:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test001 -->
-      </class> <!-- Day3.CheckBoxesTest -->
+      </class> <!-- Day3.Day3CheckBoxesTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
