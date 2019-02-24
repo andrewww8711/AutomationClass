@@ -13,6 +13,7 @@ import org.testng.annotations.Test;
 
 public class Day2 {
 	WebDriver driver;
+	WebElement searchNumber;
 
 	@BeforeSuite
 	public void setupBrowser() {
@@ -31,12 +32,14 @@ public class Day2 {
 
 	private void waitForResultsPage() {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
-		WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='web']")));
+		WebElement searchNumber1 = wait
+				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='compPagination']")));
+		searchNumber = searchNumber1.findElement(By.tagName("span"));
+
 	}
 
 	public void assertResultPage() {
-		WebElement searchResult = driver.findElement(By.xpath("//div[@id='web']"));
-		boolean isResultsDisplayed = searchResult.isDisplayed();
+		boolean isResultsDisplayed = searchNumber.isDisplayed();
 		assertTrue(isResultsDisplayed);
 	}
 
@@ -46,7 +49,6 @@ public class Day2 {
 
 	public void typeQuery() {
 		driver.findElement(By.id("uh-search-box")).sendKeys("Portnov Computer School");
-
 	}
 
 	public void openMainPage() {

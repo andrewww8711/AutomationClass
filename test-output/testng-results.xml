@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11211" started-at="2019-02-18T02:14:10Z" finished-at="2019-02-18T02:14:21Z">
+  <suite name="Default suite" duration-ms="3402" started-at="2019-02-24T05:23:54Z" finished-at="2019-02-24T05:23:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11211" started-at="2019-02-18T02:14:10Z" finished-at="2019-02-18T02:14:21Z">
-      <class name="Day2.Day2">
-        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:Day2.Day2@2b98378d]" name="setupBrowser" is-config="true" duration-ms="3749" started-at="2019-02-18T02:14:06Z" finished-at="2019-02-18T02:14:10Z">
+    <test name="Default test" duration-ms="3402" started-at="2019-02-24T05:23:54Z" finished-at="2019-02-24T05:23:57Z">
+      <class name="Day3.CheckBoxesTest">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:Day3.CheckBoxesTest@d8355a8]" name="setupBrowser" is-config="true" duration-ms="4439" started-at="2019-02-24T05:23:49Z" finished-at="2019-02-24T05:23:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method status="PASS" signature="testYahooSearch()[pri:0, instance:Day2.Day2@2b98378d]" name="testYahooSearch" duration-ms="11176" started-at="2019-02-18T02:14:10Z" finished-at="2019-02-18T02:14:21Z">
+        <test-method status="PASS" signature="test001()[pri:0, instance:Day3.CheckBoxesTest@d8355a8]" name="test001" duration-ms="3379" started-at="2019-02-24T05:23:54Z" finished-at="2019-02-24T05:23:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testYahooSearch -->
-      </class> <!-- Day2.Day2 -->
+        </test-method> <!-- test001 -->
+      </class> <!-- Day3.CheckBoxesTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
