@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Day2.Day2">
+      <class name="day4.WindowsHandles">
         <methods>
-          <include name="testYahooSearch"/>
           <include name="setupBrowser"/>
+          <include name="test001"/>
         </methods>
-      </class> <!-- Day2.Day2 -->
+      </class> <!-- day4.WindowsHandles -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

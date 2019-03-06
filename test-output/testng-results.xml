@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6064" started-at="2019-02-24T05:27:10Z" finished-at="2019-02-24T05:27:16Z">
+  <suite name="Default suite" duration-ms="10210" started-at="2019-03-06T06:04:00Z" finished-at="2019-03-06T06:04:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6064" started-at="2019-02-24T05:27:10Z" finished-at="2019-02-24T05:27:16Z">
-      <class name="Day3.Day3CheckBoxesTest">
-        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:Day3.Day3CheckBoxesTest@4c70fda8]" name="setupBrowser" is-config="true" duration-ms="3557" started-at="2019-02-24T05:27:06Z" finished-at="2019-02-24T05:27:10Z">
+    <test name="Default test" duration-ms="10210" started-at="2019-03-06T06:04:00Z" finished-at="2019-03-06T06:04:10Z">
+      <class name="day4.WindowsHandles">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:day4.WindowsHandles@2b98378d]" name="setupBrowser" is-config="true" duration-ms="5953" started-at="2019-03-06T06:03:54Z" finished-at="2019-03-06T06:04:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method status="PASS" signature="test001()[pri:0, instance:Day3.Day3CheckBoxesTest@4c70fda8]" name="test001" duration-ms="6036" started-at="2019-02-24T05:27:10Z" finished-at="2019-02-24T05:27:16Z">
+        <test-method status="PASS" signature="test001()[pri:0, instance:day4.WindowsHandles@2b98378d]" name="test001" duration-ms="10188" started-at="2019-03-06T06:04:00Z" finished-at="2019-03-06T06:04:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test001 -->
-      </class> <!-- Day3.Day3CheckBoxesTest -->
+      </class> <!-- day4.WindowsHandles -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
