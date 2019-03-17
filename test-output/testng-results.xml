@@ -2,20 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10210" started-at="2019-03-06T06:04:00Z" finished-at="2019-03-06T06:04:10Z">
+  <suite name="Default suite" duration-ms="20813" started-at="2019-03-17T20:33:27Z" finished-at="2019-03-17T20:33:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10210" started-at="2019-03-06T06:04:00Z" finished-at="2019-03-06T06:04:10Z">
-      <class name="day4.WindowsHandles">
-        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:day4.WindowsHandles@2b98378d]" name="setupBrowser" is-config="true" duration-ms="5953" started-at="2019-03-06T06:03:54Z" finished-at="2019-03-06T06:04:00Z">
+    <test name="Default test" duration-ms="20813" started-at="2019-03-17T20:33:27Z" finished-at="2019-03-17T20:33:48Z">
+      <class name="Day2.Test.YahooTestClass">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:Day2.Test.YahooTestClass@5f2108b5]" name="setupBrowser" is-config="true" duration-ms="5495" started-at="2019-03-17T20:33:27Z" finished-at="2019-03-17T20:33:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method status="PASS" signature="test001()[pri:0, instance:day4.WindowsHandles@2b98378d]" name="test001" duration-ms="10188" started-at="2019-03-06T06:04:00Z" finished-at="2019-03-06T06:04:10Z">
+        <test-method status="PASS" signature="YahooSearchTest()[pri:0, instance:Day2.Test.YahooTestClass@5f2108b5]" name="YahooSearchTest" duration-ms="11594" started-at="2019-03-17T20:33:32Z" finished-at="2019-03-17T20:33:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test001 -->
-      </class> <!-- day4.WindowsHandles -->
+        </test-method> <!-- YahooSearchTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Day2.Test.YahooTestClass@5f2108b5]" name="tearDown" is-config="true" duration-ms="3692" started-at="2019-03-17T20:33:44Z" finished-at="2019-03-17T20:33:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Day2.Test.YahooTestClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
