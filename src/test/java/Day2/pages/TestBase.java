@@ -11,7 +11,6 @@ import org.testng.annotations.BeforeTest;
 
 public class TestBase {
 	public static WebDriver driver;
-	WebElement searchNumber;
 
 	public TestBase() {
 		PageFactory.initElements(driver, this);
