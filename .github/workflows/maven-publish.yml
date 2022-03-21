@@ -26,16 +26,15 @@ jobs:
 
     - name: Build with Maven
       run:
-      mvn -B package --file pom.xml
-      mkdir staging
+       mvn -B package --file pom.xml
+       mkdir staging
 
     - name: Publish to GitHub Packages Apache Maven
       run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
       env:
         GITHUB_TOKEN: ${{ github.token }}
         
-    -name: Upload artifacts
-     uses: actions/upload-artifact@v3
-     with:
-      name: my-artifact
-      path: staging
+    - uses: actions/upload-artifact@v3
+      with:
+       name: my-artifact
+       path: staging
